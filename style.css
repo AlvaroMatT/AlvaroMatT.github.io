@@ -1,0 +1,38 @@
+* {box-sizing: border-box;}
+
+:root{
+    --fontSize: 1.5em;
+}
+body{
+    margin: 0;
+    background-color: #262429;
+    color: #fff;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    padding-top: var(--fontSize);
+    padding: var(--fontSize);
+    border-bottom: 1px solid #404040
+}
+.nav{
+    text-align: right;
+    padding: var(--fontSize)
+}
+.nav-home{
+    margin-left: auto;
+}
+
+.introduction{
+    padding-top: 3em;
+}
+h1{
+    text-align: center;
+}
+.introduction > p{
+    text-align: center;
+    font-size: var(--fontSize);
+}
