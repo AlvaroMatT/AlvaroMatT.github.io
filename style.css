@@ -7,6 +7,7 @@ body{
     margin: 0;
     background-color: #262429;
     color: #00A99D;
+    font-family: sans-serif;
 
 }
 nav{
@@ -15,25 +16,30 @@ nav{
     width: 80%;
     margin: auto;
     padding-top: 1.5em;
-    padding: 1.5em;
+    padding-left:3em;
+    padding-right:3em;
+    padding-bottom: 1.5em;
     border-bottom: 1px solid #404040
 }
 .nav{
     text-align: right;
-    padding: 1.5em;
+    padding: 1.2em;
     font-size: var(--fontSize);
+    
 }
 .nav-home{
     margin-left: auto;
 }
+
 .nav-logo{
-    padding-bottom: 0em;
-    
-}
+    padding-top: 1em;
+    padding-bottom: 0.4em;
+    align-items: left;
+}    
 .logo-image{
     border-radius: 10px;
     width: 50%;
-    align-items: center;
+   
 }
 .introduction{
     padding-top: 3em;
@@ -45,6 +51,24 @@ h1{
 .introduction > p{
     text-align: center;
     font-size: var(--fontSize);
+    font-family: sans-serif;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+
+    
+}
+.skill-item{
+    font-size: var(--fontSize);
+    background-attachment: white;
+    padding:1em;
+    color:#00A99D;
+    margin: auto;
+    border: 1px dotted #00A99D
 }
 
 @media only screen and (max-width: 600px){
