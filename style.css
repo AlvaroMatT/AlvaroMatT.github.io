@@ -6,7 +6,7 @@
 body{
     margin: 0;
     background-color: #262429;
-    color: #fff;
+    color: #00A99D;
 
 }
 nav{
@@ -26,7 +26,15 @@ nav{
 .nav-home{
     margin-left: auto;
 }
-
+.nav-logo{
+    padding-bottom: 0em;
+    
+}
+.logo-image{
+    border-radius: 10px;
+    width: 50%;
+    align-items: center;
+}
 .introduction{
     padding-top: 3em;
 }
