@@ -79,8 +79,10 @@ h1{
     }
     nav{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
     }
+
     .nav{
         text-align: center;
         margin: 0;
@@ -100,4 +102,32 @@ h1{
         width: 90%;
         margin: auto;
     }
+}
+@media only screen and (min-width: 601px) and (max-width: 748px){
+    .nav-logo{
+        display: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav{
+        text-align: center;
+        margin: 0;
+        padding: 1em;
+    }
+    .skills-container{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: auto;
+    }
+    .skill-item{
+        font-size: var(--fontSize);
+        background-attachment: white;
+        padding:1em;
+        color:#00A99D;
+        margin: 0;
+        border: 1px dotted #00A99D
 }
